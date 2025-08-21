@@ -8,9 +8,7 @@ export default defineConfig([
 	json.configs["flat/recommended-with-json"],
 	{ ignores: ["*.d.ts", "**/coverage", "**/dist"] },
 	{
-		extends: [
-			eslint.configs.recommended,
-		],
+		extends: [eslint.configs.recommended],
 		files: ["**/*.{ts,tsx,jsx,js,vue}"],
 		languageOptions: {
 			ecmaVersion: "latest",
