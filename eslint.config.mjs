@@ -33,6 +33,7 @@ export default defineConfig([
 			"lerna-debug.log*",
 			".pnpm-debug.log*",
 			"addons",
+			"./tsconfig.json",
 		],
 	},
 	prettier,

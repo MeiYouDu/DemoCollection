@@ -54,6 +54,9 @@ importers:
       stylelint-config-standard:
         specifier: ^39.0.0
         version: 39.0.0(stylelint@16.23.1(typescript@5.9.2))
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
 
 packages:
 
