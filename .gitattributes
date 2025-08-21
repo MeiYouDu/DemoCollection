@@ -1,0 +1,11 @@
+*  text eol=lf
+*.img -text
+*.png -text
+*.jpeg -text
+*.jpg -text
+*.hdr -text
+*.pdf -text
+*.doc -text
+*.xlsx -text
+*.glb -text
+*.gif -text
