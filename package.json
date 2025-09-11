@@ -8,7 +8,7 @@
 	"license": "MIT",
 	"author": "MeiYouDu",
 	"type": "module",
-	"main": "main.js",
+	"packageManager": "pnpm@10.14.0",
 	"scripts": {
 		"prepare": "husky",
 		"test": "jest",

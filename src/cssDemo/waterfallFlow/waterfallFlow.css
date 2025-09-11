@@ -1,0 +1,15 @@
+#container {
+  display: grid;
+  column-gap: 5px;
+  row-gap: 5px;
+  overflow-y: auto;
+  grid-template-columns: repeat(3, 1fr);
+  div {
+    grid-row-start: auto;
+    grid-row-end: span 180;
+    background-color: lightgray;
+  }
+  div:nth-child(2n + 1) {
+    grid-row-end: span 100;
+  }
+}
