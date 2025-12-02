@@ -147,3 +147,4 @@ exampleDist
 temp
 
 .nx/cache
+*.xlsx
